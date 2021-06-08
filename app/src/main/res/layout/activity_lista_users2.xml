@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".listaUsers">
+
+    <EditText
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="35dp"
+        android:text="mostrar"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:padding="15dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp" />
+
+
+    <Button
+        android:id="@+id/mostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mostrar" />
+
+    <Button
+        android:id="@+id/editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="editar" />
+
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="eliminar" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
